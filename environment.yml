@@ -4,6 +4,7 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
-  - mne
   - scikit-learn
-  
+  - pip:
+    - mne==0.18.0
+    - autoreject
